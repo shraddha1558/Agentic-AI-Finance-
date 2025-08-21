@@ -1,0 +1,13 @@
+prefix=/workspaces/Agentic-AI-Finance-/venv
+exec_prefix=/workspaces/Agentic-AI-Finance-/venv
+libdir=/workspaces/Agentic-AI-Finance-/venv/lib
+sharedlibdir=/workspaces/Agentic-AI-Finance-/venv/lib
+includedir=/workspaces/Agentic-AI-Finance-/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
